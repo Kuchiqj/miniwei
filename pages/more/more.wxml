@@ -1,0 +1,94 @@
+<!--pages/home/home.wxml-->
+<!-- <navigator url="/pages/component/component">组件</navigator> -->
+<!-- 
+    总结写页面步骤：
+      1.写一个大的view，然后把所有内容都放在这个view里面
+      2.一行一行的实现，每一行用一个view标签
+ -->
+ <view class="bigbox">
+<!-- 轮播图 -->
+<view class="swiperbox">
+    <swiper autoplay="true" interval="3000" indicator-dots="true"
+indicator-color="#C3B5AA"
+indicator-active-color="#FE7954" 
+circular="true"
+>
+<swiper-item>
+<image src="https://ns-strategy.cdn.bcebos.com/ns-strategy/upload/fc_big_pic/part-00248-2306.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://ns-strategy.cdn.bcebos.com/ns-strategy/upload/fc_big_pic/part-00300-1002.jpg"></image></swiper-item>
+<swiper-item >
+<image src="https://img1.baidu.com/it/u=1599166742,4260345876&fm=253&fmt=auto&app=138&f=JPEG?w=514&h=361"></image>
+</swiper-item>
+
+</swiper>
+</view>
+<view class="con1">
+<view>
+<icon type="success" size="15" color="#C3B5AA"></icon>植物识别
+</view>
+<view>
+<icon type="success" size="15" color="#C3B5AA"></icon>动物识别
+</view>
+<view>
+<icon type="success" size="15" color="#C3B5AA"></icon>货币识别
+</view>
+<view>
+<icon type="success" size="15" color="#C3B5AA"></icon>鮬赤识别
+</view>
+</view>
+
+<view class="box1" >
+        <view class="item1"><image src="https://p1.ssl.qhimgs1.com/sdr/400__/t0167705071638fd81b.jpg" class="a"></image></view>
+        <view class="item2 box2">梦幻仙女/圣诞限定
+        <view class="item3">洛神玫瑰六枝</view>
+        <view class="item4">圣诞定制新品</view>
+        <view class="item5">圣诞定制新品，花艺师力荐</view>
+        <view class="item6 box3">
+            <view class="item7">￥291
+                <view class="item8">已销售87件</view>
+            </view>
+            <image src="https://tse1-mm.cn.bing.net/th/id/OIP-C.-9A3dqArhRW9g92UBIORzQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7" class="b"></image>
+        </view>
+        </view>
+    </view>
+    <view class="box1">
+        <view class="item1"><image src="/image/bear1.png" class="a"></image></view>
+        <view class="item2 box2">裆下看你熊
+        <view class="item3">超可爱玩偶</view>
+        <view class="item4">软软乎乎</view>
+        <view class="item5">2022定制新品，小仙女力荐</view>
+        <view class="item6 box3">
+            <view class="item7">￥150
+                <view class="item8">已销售1000件</view>
+            </view>
+            <image src="https://tse1-mm.cn.bing.net/th/id/OIP-C.-9A3dqArhRW9g92UBIORzQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7" class="b"></image>
+        </view>
+        </view>
+    </view>
+  
+    <view class="box1">
+        <view class="item1"><image src="/image/duck1.png" class="a"></image></view>
+        <view class="item2 box2">Cute小黄鸭
+        <view class="item3">按压发出可爱叫声</view>
+        <view class="item4">十年再版</view>
+        <view class="item5">童年回忆，非他莫属</view>
+        <view class="item6 box3">
+            <view class="item7">￥70
+                <view class="item8">已销售800件</view>
+            </view>
+            <image src="https://tse1-mm.cn.bing.net/th/id/OIP-C.-9A3dqArhRW9g92UBIORzQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7" class="b"></image>
+        </view>
+        </view>
+    </view>
+</view>
+<!-- 导航 -->
+<view>
+<!-- 导航第一行 -->
+</view>
+<view>
+<!-- 导航第二行 -->
+</view>
+ 
+

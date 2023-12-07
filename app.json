@@ -1,0 +1,53 @@
+{"entryPagePath": "pages/mine/mine",
+  "pages": 
+  [
+    "pages/plant/plant",
+    "pages/animal/animal",
+    "pages/more/more",
+    "pages/money/money",
+    "pages/login/login",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#81C0C0",
+    "navigationBarTitleText": "鮬赤识别",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":
+   {
+    "list":
+     [
+     
+      {
+        "pagePath": "pages/plant/plant",
+        "text": "植物识别",
+        "iconPath": "icon/zhiwu.png",
+        "selectedIconPath": "icon/dongwu.png"
+      },
+
+      {
+        "pagePath": "pages/animal/animal",
+        "text": "动物识别",
+        "iconPath": "icon/dongwu.png",
+        "selectedIconPath": "icon/dongwu.png"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "text": "货币识别",
+        "iconPath": "icon/huobi.png",
+        "selectedIconPath": "icon/dongwu.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "icon/shouye.png",
+        "selectedIconPath": "icon/dongwu.png"
+      }
+    ]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,27 @@
+<view bindtap="getAccessToken" class="btn" hover-class="hoverbtn" >获取AccessToken</view>
+<view class="P">
+<view class="p">
+<image src="/image/sharpicons_Eagle.png" class="s"></image>
+<text bindtap="getAnimal" class="a" >选取图片</text><icon wx:if="{{imgsrc}}" type="success"></icon>
+<image src="/image/sharpicons_Fox.png" class="s"></image>
+</view>
+<view class="pic">
+<image wx:if="{{imgsrc}}" src="data:image/png;base64,{{imgsrc}}" ></image>
+</view>
+<view class="l">
+<image src="/image/sharpicons_Horse.png" class="s"></image>
+<text bindtap="identifyPic"  class="a">开始识别</text>
+<icon wx:if="{{num>0}}" type="success"></icon>
+<image src="/image/sharpicons_octopus.png" class="s"></image>
+</view>
+<view class="m">
+<image src="/image/sharpicons_Orca.png" class="s"></image>
+<text bindtap="showResult" class="a">识别结果</text>
+<icon wx:if="{{num1>0}}" type="success"></icon>
+<image src="/image/sharpicons_Owl.png" class="s"></image>
+</view>
+<view wx:for="{{Rst}}">{{item.name}}:{{item.score}}</view>
+</view>
+
+
+
